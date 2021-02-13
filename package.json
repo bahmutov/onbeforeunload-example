@@ -1,0 +1,26 @@
+{
+  "name": "onbeforeunload-example",
+  "version": "1.0.0",
+  "description": "Cypress test for a site that uses onbeforeunload and a confirmation prompt",
+  "private": true,
+  "scripts": {
+    "test": "cypress run",
+    "start": "serve public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/onbeforeunload-example.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/onbeforeunload-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/onbeforeunload-example#readme",
+  "devDependencies": {
+    "cypress": "6.4.0",
+    "prettier": "2.2.1",
+    "serve": "11.3.2"
+  }
+}
