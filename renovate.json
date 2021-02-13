@@ -22,7 +22,7 @@
       ],
       "excludePackagePatterns": [
         "cypress",
-        "semantic-release"
+        "serve"
       ],
       "enabled": false
     }
