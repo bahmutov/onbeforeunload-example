@@ -7,7 +7,23 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v2
 
-      - name: Run tests 🧪
+      - name: Run Electron tests 🧪
         uses: cypress-io/github-action@v2
         with:
           start: npm start
+
+      - name: Run Chrome tests 🧪
+        uses: cypress-io/github-action@v2
+        with:
+          # we have already installed everything
+          install: false
+          start: npm start
+          browser: chrome
+
+      - name: Run Firefox tests 🧪
+        uses: cypress-io/github-action@v2
+        with:
+          # we have already installed everything
+          install: false
+          start: npm start
+          browser: firefox
