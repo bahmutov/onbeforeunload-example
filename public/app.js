@@ -3,8 +3,12 @@
 //   return confirm("test")
 // };
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty
 window.onbeforeunload = function (e) {
   console.log('app window.onbeforeunload')
-  e.returnValue = 'ask user';
-  return;
+  // will pop up a confirmation dialog
+  // asking the user before navigating away from the page
+  // or even simply reloading
+  e.returnValue = 'ask user'
+  return
 }

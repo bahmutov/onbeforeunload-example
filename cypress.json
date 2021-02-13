@@ -3,5 +3,7 @@
   "pageLoadTimeout": 5000,
   "fixturesFolder": false,
   "supportFile": false,
-  "pluginsFile": false
+  "pluginsFile": false,
+  "viewportHeight": 100,
+  "viewportWidth": 300
 }

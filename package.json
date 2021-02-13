@@ -5,7 +5,9 @@
   "private": true,
   "scripts": {
     "test": "cypress run",
-    "start": "serve public"
+    "start": "serve public",
+    "cy:open": "cypress open",
+    "dev": "start-test 5000 cy:open"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "cypress": "6.4.0",
     "prettier": "2.2.1",
-    "serve": "11.3.2"
+    "serve": "11.3.2",
+    "start-server-and-test": "1.12.0"
   }
 }
