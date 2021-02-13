@@ -1,5 +1,5 @@
 # onbeforeunload-example
-![cypress version](https://img.shields.io/badge/cypress-6.4.0-brightgreen)
+![cypress version](https://img.shields.io/badge/cypress-6.4.0-brightgreen) [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app]
 > Cypress test for a site that uses onbeforeunload and a confirmation prompt
 
 ## Links
@@ -25,3 +25,10 @@ getEventListeners(window).beforeunload
 ```
 
 [Source](https://twitter.com/AndyDavies/status/1359167670873190405)
+
+[ci image]: https://github.com/bahmutov/onbeforeunload-example/workflows/ci/badge.svg?branch=main
+[ci url]: https://github.com/bahmutov/onbeforeunload-example/actions
+[badges image]: https://github.com/bahmutov/onbeforeunload-example/workflows/badges/badge.svg?branch=main
+[badges url]: https://github.com/bahmutov/onbeforeunload-example/actions
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
