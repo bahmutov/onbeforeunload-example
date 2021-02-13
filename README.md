@@ -1,4 +1,5 @@
 # onbeforeunload-example
+![cypress version](https://img.shields.io/badge/cypress-6.4.0-brightgreen)
 > Cypress test for a site that uses onbeforeunload and a confirmation prompt
 
 ## Links
