@@ -1,5 +1,5 @@
 # onbeforeunload-example
-![cypress version](https://img.shields.io/badge/cypress-8.4.1-brightgreen) [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app]
+![cypress version](https://img.shields.io/badge/cypress-8.5.0-brightgreen) [![ci status][ci image]][ci url] [![badges status][badges image]][badges url] [![renovate-app badge][renovate-badge]][renovate-app]
 > Cypress test for a site that uses onbeforeunload and a confirmation prompt
 
 Read [window.onbeforeunload and Cypress](https://glebbahmutov.com/blog/onbeforeunload/)
