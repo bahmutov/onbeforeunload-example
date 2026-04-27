@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "test": "cypress run",
-    "start": "serve public",
+    "start": "serve public -p 3000",
     "cy:open": "cypress open",
-    "dev": "start-test 5000 cy:open"
+    "dev": "start-test 3000 cy:open"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,9 @@
   "homepage": "https://github.com/bahmutov/onbeforeunload-example#readme",
   "devDependencies": {
     "cypress": "15.14.1",
+    "cypress-real-events": "^1.15.0",
     "prettier": "3.8.3",
-    "serve": "12.0.1",
+    "serve": "14.2.6",
     "start-server-and-test": "2.0.4"
   }
 }
