@@ -8,3 +8,8 @@ window.addEventListener('beforeunload', function (e) {
   e.returnValue = ''
   return
 })
+
+document.getElementById('reload').addEventListener('click', function () {
+  console.log('app2 reload button clicked')
+  location.reload()
+})
